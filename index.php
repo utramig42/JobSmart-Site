@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
+<?php session_start() ?>
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -29,6 +29,7 @@
         <div class="container">
             <a class="navbar-brand" href="index.php">Job'Smart</a>
             <a class="btn btn-secondary text-white" href="#">Login</a>
+            <a href="#contato">Contato</a>
         </div>
     </nav>
 
@@ -142,7 +143,7 @@
     </section>
 
     <!-- Call to Action -->
-    <section class="call-to-action text-white text-center">
+    <section class="call-to-action text-white text-center" id="contato">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
@@ -150,10 +151,16 @@
                     <h2 class="mb-4">Entre em Contato</h2>
                 </div>
                 <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-                    <form action="post">
+
+                    <?php
+                        if(isset($_SESSION['msg'])) echo $_SESSION['msg']; 
+                        unset($_SESSION['msg']);
+                    ?>
+
+                    <form action="sendEmails.php" method="POST">
                         <div class="form-row">
                             <div class="col-12 col-md-12 mb-2 mb-md-0">
-                                <input type="text" class="form-control form-control-lg" name="nome" placeholder="Nome">
+                                <input type="text" class="form-control form-control-lg" name="name" placeholder="Nome">
                             </div>
 
                             <div class="col-12 mt-2 col-md-12 mb-2 mb-md-0">
