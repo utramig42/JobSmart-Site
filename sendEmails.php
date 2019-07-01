@@ -3,10 +3,10 @@
 // Seção 1: SMTP
 
 // Obtendo as variaveis via POST.
-$name = $_POST['name'];
-$email = $_POST['email'];
-$assunto = $_POST['assunto'];
-$msg = $_POST['mensagem'];
+$name = utf8_decode($_POST['name']);
+$email = utf8_decode($_POST['email']);
+$assunto = utf8_decode($_POST['assunto']);
+$msg = utf8_decode($_POST['mensagem']);
 
 //Import PHPMailer classes into the global namespace
 use PHPMailer\PHPMailer\PHPMailer;
@@ -56,16 +56,16 @@ $mail->Password = "utramig2019";
 $mail->setFrom($email, $name);
 
 // Defina para quem ira enviar a mensagem.
-$mail->addAddress('utramiginformatica42@gmail.com','Contato Pelo Site');
+$mail->addAddress('utramiginformatica42@gmail.com', 'Contato Pelo Site');
 
 // Definir a linha de assunto
-$mail->Subject = 'Contato pelo site: '.$assunto;
+$mail->Subject = 'Contato pelo site: ' . $assunto;
 
 // Definir um endereço de resposta 
 $mail->addReplyTo($email, $name);
 
 // Corpo do texto.
-$mail->Body = $name." Disse: ".$msg;
+$mail->Body = $name . " Disse: " . $msg;
 
 
 // Iniciando a sessão para renderização da mensagem de sucesso ou erro.
@@ -73,7 +73,8 @@ session_start();
 
 // Envia a mensagem,e verifique se há erros
 if (!$mail->send()) {
-    $_SESSION['msg'] = '<div class="alert alert-danger"> Ocorreu um erro ao enviar o e-mail: </div>' . $mail->ErrorInfo;
+    $_SESSION['msg'] = '<div class="alert alert-danger"> Ocorreu um erro ao enviar o e-mail: ' . $mail->ErrorInfo
+        . '</div>';
 } else {
     $_SESSION['msg'] = '<div class="alert alert-success"> E-mail enviado com sucesso! </div>';
 }
