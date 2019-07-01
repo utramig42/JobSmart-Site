@@ -47,7 +47,7 @@
                             <i class="icon-screen-desktop m-auto text-success"></i>
                         </div>
                         <h3>Multiplas plataformas</h3>
-                        <p class="lead mb-0"> O Sistema Jobsmart conta com 3 niveis de abstração do sistema </p>
+                        <p class="lead mb-0"> O Sistema Jobsmart conta com 2 niveis de abstração do sistema.</p>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -55,8 +55,8 @@
                         <div class="features-icons-icon d-flex">
                             <i class="icon-organization m-auto text-success"></i>
                         </div>
-                        <h3>Bootstrap 4 Ready</h3>
-                        <p class="lead mb-0">Featuring the latest build of the new Bootstrap 4 framework!</p>
+                        <h3>Plataformas WEB, Desktop e Mobile</h3>
+                        <p class="lead mb-0">Formas completas de se acessar e manter o controle da sua empresa.</p>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -65,7 +65,7 @@
                             <i class="icon-check m-auto text-success"></i>
                         </div>
                         <h3>Fácil de usar</h3>
-                        <p class="lead mb-0">Ready to use with your own content, or customize the source files!</p>
+                        <p class="lead mb-0">Conta com uma apresentação simples e fácil de navegar.</p>
                     </div>
                 </div>
             </div>
@@ -79,29 +79,23 @@
 
                 <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
                 <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-                    <h2>Fully Responsive Design</h2>
-                    <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will
-                        look great on any device, whether it's a phone, tablet, or desktop the page will behave
-                        responsively!</p>
+                    <h2>Gráficos para acompanhamento diário, semanal e mensal</h2>
+                    <p class="lead mb-0">Os gráficos auxiliam no acompanhamento do faturamento,realizando comparações para crescimento ano a ano de sua empresa</p>
                 </div>
             </div>
             <div class="row no-gutters">
                 <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');">
                 </div>
                 <div class="col-lg-6 my-auto showcase-text">
-                    <h2>Updated For Bootstrap 4</h2>
-                    <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 4 is leading the
-                        way in mobile responsive web development! All of the themes on Start Bootstrap are now using
-                        Bootstrap 4!</p>
+                    <h2>Programação simples e efetiva</h2>
+                    <p class="lead mb-0">Códigos simples e efetivos, caso precise de qualquer alteração, possui códigos bem organizados.</p>
                 </div>
             </div>
             <div class="row no-gutters">
                 <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
                 <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-                    <h2>Easy to Use &amp; Customize</h2>
-                    <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand
-                        some deeper customization options. Out of the box, just add your content and images, and your
-                        new landing page will be ready to go!</p>
+                    <h2>Design</h2>
+                    <p class="lead mb-0">Design incrível utilizando o que tem de mais moderno na programação front end.</p>
                 </div>
             </div>
         </div>
@@ -114,25 +108,24 @@
             <div class="row">
                 <div class="col-lg-4">
                     <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                        <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
-                        <h5>Margaret E.</h5>
-                        <p class="font-weight-light mb-0">"Fantástico! Muito obrigado pessoal!"</p>
+                        <img class="img-fluid rounded-circle mb-3" src="img/1.jpg" alt="">
+                        <h5>Guilherme A.</h5>
+                        <p class="font-weight-light mb-0">"Fantástico! Indico para todos!"</p>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                        <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
-                        <h5>Katherine S.</h5>
+                        <img class="img-fluid rounded-circle mb-3" src="img/2.jpg" alt="">
+                        <h5>Marcos Davi</h5>
                         <p class="font-weight-light mb-0">"Incrível. Tenho usado o sistema em minha empresa e o
-                            control."</p>
+                            controle."</p>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                        <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
-                        <h5>Sarah W.</h5>
-                        <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to
-                            us!"</p>
+                        <img class="img-fluid rounded-circle mb-3" src="img/3.jpg" alt="">
+                        <h5>Arthur A.</h5>
+                        <p class="font-weight-light mb-0">"Muito simples de dar qualquer tipo de manutenção no código"</p>
                     </div>
                 </div>
             </div>
@@ -188,19 +181,19 @@
                 <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
                     <ul class="list-inline mb-2 text-success">
                         <li class="list-inline-item">
-                            <a class="text-white" href="#">About</a>
+                            <a class="text-white" href="#">sobre</a>
                         </li>
                         <li class="list-inline-item">&sdot;</li>
                         <li class="list-inline-item">
-                            <a class="text-white" href="#">Contact</a>
+                            <a class="text-white" href="#">Contato</a>
                         </li>
                         <li class="list-inline-item">&sdot;</li>
                         <li class="list-inline-item">
-                            <a class="text-white" href="#">Terms of Use</a>
+                            <a class="text-white" href="#">Termos de uso</a>
                         </li>
                         <li class="list-inline-item">&sdot;</li>
                         <li class="list-inline-item">
-                            <a class="text-white" href="#">Privacy Policy</a>
+                            <a class="text-white" href="#">Privacidade</a>
                         </li>
                     </ul>
                     <p class="text-muted small mb-4 mb-lg-0">&copy; Job'Smart 2019. Todos os direitos reservados.</p>
