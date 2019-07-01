@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <?php session_start() ?>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -16,8 +17,7 @@
     <!-- Custom fonts for this template -->
     <link type="text/css" href="css/fontawesome-free-all.css" rel="stylesheet">
     <link type="text/css" href="css/simple-line-icons.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
-        type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- Custom styles for this template -->
     <link href="css/landing-page.css" rel="stylesheet">
@@ -29,7 +29,6 @@
         <div class="container">
             <a class="navbar-brand" href="index.php">Job'Smart</a>
             <a class="btn btn-secondary text-white" href="#">Login</a>
-            <a href="#contato">Contato</a>
         </div>
     </nav>
 
@@ -78,8 +77,7 @@
         <div class="container-fluid p-0">
             <div class="row no-gutters">
 
-                <div class="col-lg-6 order-lg-2 text-white showcase-img"
-                    style="background-image: url('img/bg-showcase-1.jpg');"></div>
+                <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
                 <div class="col-lg-6 order-lg-1 my-auto showcase-text">
                     <h2>Fully Responsive Design</h2>
                     <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will
@@ -98,8 +96,7 @@
                 </div>
             </div>
             <div class="row no-gutters">
-                <div class="col-lg-6 order-lg-2 text-white showcase-img"
-                    style="background-image: url('img/bg-showcase-3.jpg');"></div>
+                <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
                 <div class="col-lg-6 order-lg-1 my-auto showcase-text">
                     <h2>Easy to Use &amp; Customize</h2>
                     <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand
@@ -153,29 +150,26 @@
                 <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
 
                     <?php
-                        if(isset($_SESSION['msg'])) echo $_SESSION['msg']; 
-                        unset($_SESSION['msg']);
+                    if (isset($_SESSION['msg'])) echo $_SESSION['msg'];
+                    unset($_SESSION['msg']);
                     ?>
 
                     <form action="sendEmails.php" method="POST">
                         <div class="form-row">
                             <div class="col-12 col-md-12 mb-2 mb-md-0">
-                                <input type="text" class="form-control form-control-lg" name="name" placeholder="Nome">
+                                <input required type="text" class="form-control form-control-lg" name="name" placeholder="Nome">
                             </div>
 
                             <div class="col-12 mt-2 col-md-12 mb-2 mb-md-0">
-                                <input type="email" class="form-control form-control-lg" name="email"
-                                    placeholder="E-mail">
+                                <input required type="email" class="form-control form-control-lg" name="email" placeholder="E-mail">
                             </div>
 
                             <div class="col-12 mt-2  col-md-12 mb-2 mb-md-0">
-                                <input type="text" class="form-control form-control-lg" name="assunto"
-                                    placeholder="Assunto">
+                                <input required type="text" class="form-control form-control-lg" name="assunto" placeholder="Assunto">
                             </div>
 
                             <div class="col-12 mt-2 col-md-12 mb-2 mb-md-0">
-                                <textarea class="form-control form-control-lg" row="5" name="mensagem"
-                                    placeholder="Mensagem"></textarea>
+                                <textarea required class="form-control form-control-lg" row="5" name="mensagem" placeholder="Mensagem"></textarea>
                             </div>
                             <div class="col-12 mt-2  col-md-12">
                                 <button type="submit" class="btn btn-block btn-lg btn-primary">Enviar</button>
