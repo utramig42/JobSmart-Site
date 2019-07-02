@@ -17,7 +17,8 @@
     <!-- Custom fonts for this template -->
     <link type="text/css" href="css/fontawesome-free-all.css" rel="stylesheet">
     <link type="text/css" href="css/simple-line-icons.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
+        type="text/css">
 
     <!-- Custom styles for this template -->
     <link href="css/landing-page.css" rel="stylesheet">
@@ -28,7 +29,7 @@
     <nav class="navbar navbar-dark bg-dark static-top">
         <div class="container">
             <a class="navbar-brand" href="index.php">Job'Smart</a>
-            <a class="btn btn-secondary text-white" href="#">Login</a>
+            <a class="btn btn-secondary text-white" href="http://localhost/JobSmart-WEB/">Login</a>
         </div>
     </nav>
 
@@ -47,7 +48,7 @@
                             <i class="icon-screen-desktop m-auto text-success"></i>
                         </div>
                         <h3>Multiplas plataformas</h3>
-                        <p class="lead mb-0"> O Sistema Jobsmart conta com 2 niveis de abstração do sistema.</p>
+                        <p class="lead mb-0"> O Sistema Jobsmart conta com 3 niveis de abstração do sistema.</p>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -77,10 +78,12 @@
         <div class="container-fluid p-0">
             <div class="row no-gutters">
 
-                <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
+                <div class="col-lg-6 order-lg-2 text-white showcase-img"
+                    style="background-image: url('img/bg-showcase-1.jpg');"></div>
                 <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-                    <h2>Gráficos para acompanhamento diário, semanal e mensal</h2>
-                    <p class="lead mb-0">Os gráficos auxiliam no acompanhamento do faturamento,realizando comparações para crescimento ano a ano de sua empresa</p>
+                    <h2>Gráficos para acompanhamento do seu supermecado</h2>
+                    <p class="lead mb-0">Os gráficos auxiliam no acompanhamento do faturamento,realizando comparações
+                        para crescimento ano a ano de sua empresa</p>
                 </div>
             </div>
             <div class="row no-gutters">
@@ -88,19 +91,21 @@
                 </div>
                 <div class="col-lg-6 my-auto showcase-text">
                     <h2>Programação simples e efetiva</h2>
-                    <p class="lead mb-0">Códigos simples e efetivos, caso precise de qualquer alteração, possui códigos bem organizados.</p>
+                    <p class="lead mb-0">Códigos simples e efetivos, caso precise de qualquer alteração, possui códigos
+                        bem organizados.</p>
                 </div>
             </div>
             <div class="row no-gutters">
-                <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
+                <div class="col-lg-6 order-lg-2 text-white showcase-img"
+                    style="background-image: url('img/bg-showcase-3.jpg');"></div>
                 <div class="col-lg-6 order-lg-1 my-auto showcase-text">
                     <h2>Design</h2>
-                    <p class="lead mb-0">Design incrível utilizando o que tem de mais moderno na programação front end.</p>
+                    <p class="lead mb-0">Design incrível utilizando o que tem de mais moderno na programação front end.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
-
     <!-- Testimonials -->
     <section class="testimonials text-center bg-light">
         <div class="container">
@@ -108,7 +113,7 @@
             <div class="row">
                 <div class="col-lg-4">
                     <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                        <img class="img-fluid rounded-circle mb-3" src="img/1.jpg" alt="">
+                        <img class="img-fluid rounded-circle mb-3" src="img/3.jpg" alt="">
                         <h5>Guilherme A.</h5>
                         <p class="font-weight-light mb-0">"Fantástico! Indico para todos!"</p>
                     </div>
@@ -123,9 +128,10 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                        <img class="img-fluid rounded-circle mb-3" src="img/3.jpg" alt="">
+                        <img class="img-fluid rounded-circle mb-3" src="img/1.jpg" alt="">
                         <h5>Arthur A.</h5>
-                        <p class="font-weight-light mb-0">"Muito simples de dar qualquer tipo de manutenção no código"</p>
+                        <p class="font-weight-light mb-0">"Muito simples de dar qualquer tipo de manutenção no código"
+                        </p>
                     </div>
                 </div>
             </div>
@@ -150,19 +156,23 @@
                     <form action="sendEmails.php" method="POST">
                         <div class="form-row">
                             <div class="col-12 col-md-12 mb-2 mb-md-0">
-                                <input required type="text" class="form-control form-control-lg" name="name" placeholder="Nome">
+                                <input required type="text" class="form-control form-control-lg" name="name"
+                                    placeholder="Nome">
                             </div>
 
                             <div class="col-12 mt-2 col-md-12 mb-2 mb-md-0">
-                                <input required type="email" class="form-control form-control-lg" name="email" placeholder="E-mail">
+                                <input required type="email" class="form-control form-control-lg" name="email"
+                                    placeholder="E-mail">
                             </div>
 
                             <div class="col-12 mt-2  col-md-12 mb-2 mb-md-0">
-                                <input required type="text" class="form-control form-control-lg" name="assunto" placeholder="Assunto">
+                                <input required type="text" class="form-control form-control-lg" name="assunto"
+                                    placeholder="Assunto">
                             </div>
 
                             <div class="col-12 mt-2 col-md-12 mb-2 mb-md-0">
-                                <textarea required class="form-control form-control-lg" row="5" name="mensagem" placeholder="Mensagem"></textarea>
+                                <textarea required class="form-control form-control-lg" row="5" name="mensagem"
+                                    placeholder="Mensagem"></textarea>
                             </div>
                             <div class="col-12 mt-2  col-md-12">
                                 <button type="submit" class="btn btn-block btn-lg btn-primary">Enviar</button>
@@ -180,21 +190,12 @@
             <div class="row">
                 <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
                     <ul class="list-inline mb-2 text-success">
+                        <!-- <li class="list-inline-item">&sdot;</li> -->
                         <li class="list-inline-item">
-                            <a class="text-white" href="#">sobre</a>
+                            <a class="text-white" href="#contato">Contato</a>
                         </li>
-                        <li class="list-inline-item">&sdot;</li>
-                        <li class="list-inline-item">
-                            <a class="text-white" href="#">Contato</a>
-                        </li>
-                        <li class="list-inline-item">&sdot;</li>
-                        <li class="list-inline-item">
-                            <a class="text-white" href="#">Termos de uso</a>
-                        </li>
-                        <li class="list-inline-item">&sdot;</li>
-                        <li class="list-inline-item">
-                            <a class="text-white" href="#">Privacidade</a>
-                        </li>
+
+
                     </ul>
                     <p class="text-muted small mb-4 mb-lg-0">&copy; Job'Smart 2019. Todos os direitos reservados.</p>
                 </div>
